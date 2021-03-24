@@ -10,7 +10,9 @@ namespace Hello2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("New New");
+            Console.WriteLine("Tell me wat to say");
+            string k = Console.ReadLine();
+            Console.WriteLine("I was yold to say "+k);
             Console.ReadLine();
         }
     }
